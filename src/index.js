@@ -23,6 +23,6 @@ app.get('/soma/:a/:b', (req, res) => {
     })
 })
 
-app.listen(Port, () => {
+app.listen(port, () => {
     console.log('server running on port', port)
 })
